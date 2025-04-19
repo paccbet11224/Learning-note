@@ -23,3 +23,11 @@ MPI,Pthread
 Build an Operating System
 
 Build a compiler
+
+CUDA
+
+Distributed System
+
+MCP
+
+LLM
