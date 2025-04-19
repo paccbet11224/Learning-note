@@ -2,6 +2,11 @@
 
 随手记录学习笔记
 
+## Learning...
+minitorch
+
+CRS
+
 ## To-Learn List
 Classic ML with PyTorch
 
