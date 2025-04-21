@@ -3,9 +3,11 @@
 随手记录学习笔记
 
 ## Learning...
-minitorch
+Pytorch
 
 CRS
+
+MPI&Pthread
 
 ## To-Learn List
 Classic ML with PyTorch
@@ -17,8 +19,6 @@ CSAPP
 Django
 
 Rust
-
-MPI,Pthread
 
 Build an Operating System
 
