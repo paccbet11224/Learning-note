@@ -86,3 +86,17 @@ cur.__dict__  ==  {
 ```
 [<Module1>, <Module2>, ...]
 ```
+
+#### 6、shape相关
+
+```
+input_dim = x['fea'].shape[1]
+```
+
+此shape返回的是x['fea']的形状的第二个值
+
+```
+feat = x['fea'].reshape(-1,ins_perclass,input_dim)
+```
+
+-1可以理解为不知道该值，让reshape在不知道第一个值的，但是知道第二第三维值的情况下，自己得到一个三维矩阵。
