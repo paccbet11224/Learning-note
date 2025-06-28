@@ -100,3 +100,19 @@ feat = x['fea'].reshape(-1,ins_perclass,input_dim)
 ```
 
 -1可以理解为不知道该值，让reshape在不知道第一个值的，但是知道第二第三维值的情况下，自己得到一个三维矩阵。
+
+#### 7、mean相关
+
+```
+np.mean(a, # 必须是数组
+		axis=None,
+		dtype=None, 
+		out=None,
+		keepdims=<class 'numpy._globals._NoValue'>)
+```
+
+mean()函数的功能是求取平均值，经常操作的参数是axis，以m*n的矩阵为例：
+
+- axis不设置值，对m*n个数求平均值，返回一个实数
+- axis = 0：压缩列，对各列求均值，返回1*n的矩阵
+- axis = 1: 压缩行，对各行求均值，返回m*1的矩阵
